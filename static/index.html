@@ -167,7 +167,7 @@
 				<div class="ui label">
 					Viramate ID:
 				</div>
-				<input id="viramate-id-input" type="text" value="fgpokpknehglcioijejfeebigdnbnokj">
+				<input id="viramate-id-input" type="text" value="hkcflpjimidieaiakodekoghdaemdabd">
 			</div>
 			<button id="view-statistics" class="ui bigger button right labeled icon">View Current Stats<i class="question circle icon"></i></button>
 			<button id="full-screen" class="ui bigger button right labeled icon">Full Screen<i class="right expand icon"></i></button>
@@ -285,13 +285,13 @@
 	</div>
 	<script type="text/javascript">
 		if (!navigator.userAgent.toLowerCase().match('edge') && !navigator.userAgent.toLowerCase().match('firefox') && document.getElementById('container')) {
-			fetch("chrome-extension://fgpokpknehglcioijejfeebigdnbnokj/content/api.html").then(function(response) {
+			fetch("chrome-extension://hkcflpjimidieaiakodekoghdaemdabd/content/api.html").then(function(response) {
 				if (!response.ok) {
 					throw Error(response.statusText);
 				}
 				return response;
 			}).then(function() {
-				document.getElementById('container').innerHTML += '<iframe id="viramate-api" src="chrome-extension://fgpokpknehglcioijejfeebigdnbnokj/content/api.html" width="1" height="1"><p>Your browser does not support iframes.</p></iframe>';
+				document.getElementById('container').innerHTML += '<iframe id="viramate-api" src="chrome-extension://hkcflpjimidieaiakodekoghdaemdabd/content/api.html" width="1" height="1"><p>Your browser does not support iframes.</p></iframe>';
 				document.getElementById("viramate-api").contentWindow.console.log = function() {};
 			}).catch(function(err) {
 				console.log("Error finding Viramate extension on page load. " + err);
