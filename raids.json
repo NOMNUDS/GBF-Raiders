@@ -1,5 +1,13 @@
 [
 {
+	"japanese": "LLv200 イーウィヤ",
+	"english": "Lvl 200 Ewiyar",
+	"room": "Lvl200Ewiyar",
+	"image": "/assets/raids/Wings_of_Terror_Nightmare.jpg",
+	"category": "ROTB",
+	"element": "Null"
+},
+{
 	"japanese": "Lv100 四象瑞神",
 	"english": "Lvl 100 Shenxian",
 	"room": "lvl100Shenxian",
